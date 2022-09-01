@@ -1,13 +1,31 @@
-# Sample Hardhat Project
+# WEB 3 BANK APP
+This project demonstrates a Hardhat bank app using Solidity and Javascript.
+It comes with a contract and a script that deploys that contract.
+It has the following bank app functions
+<ol>
+  <li>Register</li>
+  <li>Log in</li>
+  <li>Deposit</li>
+  <li>Check Balance</li>
+</ol> 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
+For help;
 ```shell
 npx hardhat help
-npx hardhat test
+```
+To run tests;
+```shell
+npx hardhat help
+```
+To estimate gas;
+```shell
 GAS_REPORT=true npx hardhat test
+```
+To run locally;
+```shell
 npx hardhat node
+```
+To deploy;
+```shell
 npx hardhat run scripts/deploy.js
 ```
